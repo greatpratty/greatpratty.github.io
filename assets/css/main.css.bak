@@ -119,13 +119,13 @@ input, select, textarea {
 	}
 
 	html, input, select, textarea {
-		font-size: 12pt;
+		font-size: 16pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html, input, select, textarea {
-				font-size: 10pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -133,7 +133,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html, input, select, textarea {
-				font-size: 10pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -141,13 +141,13 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html, input, select, textarea {
-				font-size: 10pt;
+				font-size: 11pt;
 			}
 
 		}
 
 	body, input, select, textarea {
-		font-family: Lucida, Monospace;
+		font-family: Arial, Helvetica, sans-serif;
 		font-weight: normal;
 		line-height: 1.5em;
 		letter-spacing: -0.015em;
@@ -2786,7 +2786,7 @@ input, select, textarea {
 			}
 
 			.spotlight:nth-child(2n) .content {
-				text-align: left;
+				text-align: right;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
@@ -3849,7 +3849,7 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 			opacity: 1;
-			text-align: rightt;
+			text-align: right;
 			margin: -3.5em 4em 0 0;
 		}
 
